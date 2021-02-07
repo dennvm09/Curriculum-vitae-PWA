@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300;700;900&display=swap'); /*font-family: 'Oswald', sans-serif;*/
 
 #container{
-    width: 80%;
+    width: 70%;
     background-color: white;
     margin: 10px auto;
     flex-wrap: wrap;
@@ -25,18 +25,17 @@
 }
 
 .info-bar-icon{
-    color: white;
+    /*color: white;*/
     padding: 7px;
 }
 
 .info-person{
-    padding-top: 15px;
+    padding-top: 0.2px;
     height: 250px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding-right: 60px;
-
 }
 .info-person-photo{
     /*clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);*/
@@ -51,8 +50,8 @@
 }
 
 .photo{
-    width: 250px; 
-    height: 250px;
+    width: 200px; 
+    height: 200px;
 }
 
 .person{
@@ -64,7 +63,7 @@
     border-bottom-color: gray;
     border-bottom-width: 2px;
     font-weight:normal;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .name{
@@ -79,6 +78,72 @@
 
 .degree{
     color: gray;
-    font-size: 20px;
+    font-size: 18px;
+    
 }
+
+.info-general{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: #0984e3;
+}
+
+.info-general-1{
+    width: 55%;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.info-general-2{
+    width: 45%;
+    padding-right: 30px;
+}
+
+.title{
+    text-align: justify;
+    border-bottom-width: 0.5px;
+    border-bottom-style: solid;
+    border-bottom-color: #2d3436;
+    padding-bottom: 1px;
+    height: 30px;
+}
+
+.title-name-1{
+    text-transform: uppercase;
+}
+
+.text{
+    color: gray;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.deep-info{
+    display:flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.deep-info-1{
+    width: 40%;
+    border-right-width: 0.5px;
+    border-right-style: solid;
+    border-right-color: #2d3436;
+}
+
+.deep-info-2{
+    width: 60%;
+    padding-left: 10px;
+}
+
+.title-name-2{
+    font-size: small;
+    font-weight: lighter;
+}
+
+
+
+
+
 
