@@ -3,7 +3,7 @@
 
 #container{
     width: 70%;
-    background-color: white;
+    background-color: #F8F9F9;
     margin: 10px auto;
     flex-wrap: wrap;
 }
