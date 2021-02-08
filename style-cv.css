@@ -102,9 +102,9 @@
 
 .title{
     text-align: justify;
-    border-bottom-width: 0.5px;
+    border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: #2d3436;
+    border-bottom-color: gray;
     padding-bottom: 1px;
     height: 30px;
 }
@@ -129,14 +129,14 @@
 
 .deep-info-1{
     width: 40%;
-    border-right-width: 0.5px;
+    border-right-width: 2px;
     border-right-style: solid;
-    border-right-color: #2d3436;
+    border-right-color: gray;
     
 }
 
 .deep-info-1-1{
-    height: 110px;
+    height: 150px;
 }
 
 .deep-info-1-2{
@@ -214,6 +214,12 @@
 .container-skill{
     padding-bottom: 24px;
 }
+
+.additional-info{
+    padding-bottom: 20px;
+}
+
+
 
 
 
