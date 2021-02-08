@@ -37,7 +37,6 @@
     padding-right: 60px;
 }
 .info-person-photo{
-    /*clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);*/
     width: 30%;
     padding-left: 20px;
 }
@@ -49,6 +48,7 @@
 }
 
 .photo{
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
     width: 200px; 
     height: 200px;
 }
@@ -67,7 +67,7 @@
 
 .name{
     text-transform: capitalize;
-    color: #81ecec;
+    color: #92e2e2cc;
 }
 
 .lastname{
@@ -247,6 +247,7 @@
     font-size: 15px;
     font-weight: normal;
     color: gray;
+    text-align: justify;
 }
   
 .modal.is-visible {
