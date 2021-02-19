@@ -6,4 +6,4 @@
 
 - **Github page:** [Let's go to my resume!!](https://dennvm09.github.io/Curriculum-vitae-PWA/)
 - **Made by:** Dennys Valentina Mosquera - 2021
-- **Class:** Advanced Web Programming (PWA)
+- **Class:** Web Development (PWA)
